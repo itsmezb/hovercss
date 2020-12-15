@@ -1,0 +1,37 @@
+
+
+
+.card-center.permahover {
+  transform: scale(1.1) perspective(0) rotateX(0);
+  animation: animt 5s infinite;
+  position: relative;
+}
+
+@keyframes animt {
+  0%   {top: 0px;  }
+  50%  {top: 30px; }
+  100% {top: 00px; }
+}
+
+
+
+.party1 {
+  display: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .card-center {
+    display: none;
+  }
+  .party1 {
+    height: 750px;
+    width: 700px;
+    display: inline-block;
+    transition: all .3s ease;
+    transform: scale(1) perspective(1500px)  rotateX(60deg);
+  }
+  .party1:hover {
+    transform: scale(1) perspective(0) rotateX(0);
+  }
+}

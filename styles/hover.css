@@ -1,0 +1,106 @@
+.card-center {
+  transition: all .6s ease;
+  transform: scale(1) perspective(1500px) rotateX(60deg);
+}
+
+.card-center-nh {
+  transition: all .6s ease;
+  transform: scale(1) perspective(1500px) rotateX(60deg);
+}
+
+.card-center:hover {
+  transform: scale(1.1) perspective(0) rotateX(0);
+}
+
+.card-center-50 {
+  transition: all .3s ease;
+  transform: scale(1) perspective(1500px) rotateX(50deg);
+}
+
+.card-center-50:hover {
+  transition: all .3s ease;
+  transform: scale(1) perspective(1500px) rotateX(0deg);
+}
+
+
+.card-center-40 {
+  transition: all .3s ease;
+  transform: scale(1) perspective(1500px) rotateX(40deg);
+}
+
+.card-center-40:hover {
+  transition: all .3s ease;
+  transform: scale(1) perspective(1500px) rotateX(0deg);
+}
+
+.card-center-30 {
+  transition: all .3s ease;
+  transform: scale(1) perspective(1500px) rotateX(30deg);
+}
+
+.card-center-30:hover {
+  transition: all .3s ease;
+  transform: scale(1) perspective(1500px) rotateX(0deg);
+}
+
+.card-center-20 {
+  transition: all .3s ease;
+  transform: scale(1) perspective(1500px) rotateX(20deg);
+}
+
+.card-center-20:hover {
+  transition: all .3s ease;
+  transform: scale(1) perspective(1500px) rotateX(0deg);
+}
+
+.card-center-10 {
+  transition: all .3s ease;
+  transform: scale(1) perspective(1500px) rotateX(10deg);
+}
+
+.card-center-10:hover {
+  transition: all .3s ease;
+  transform: scale(1) perspective(1500px) rotateX(0deg);
+}
+
+
+
+
+.card-right  {  
+    transform: scale(1) perspective(1000px) rotateX(23deg) rotateY(-23deg) rotate(15deg) translateX(-15px) translateY(-85px);
+  transition: all .3s ease;
+
+}
+
+.card-right:hover  {  
+  transform: scale(1) perspective(1000px) rotateX(0) rotateY(0) rotate(0) translateX(-5px) translateY(-30px);
+  transition: all .3s ease;
+
+  }
+
+.card-right-nh {
+  transform: scale(1) perspective(1000px) rotateX(23deg) rotateY(-23deg) rotate(15deg) translateX(-35px) translateY(-105px);
+  transition: all .3s ease;
+}
+
+
+.card-left {
+  transition: 0.3s  ease;
+  transform: scale(1) perspective(1000px) rotateX(23deg) rotateY(23deg) rotate(-9.8deg) translateX(-15px) translateY(-115px);
+}
+
+.card-left:hover {
+    -webkit-transform: scale(1) perspective(0) rotateX(0) rotateY(0) rotate(0) translateX(-45px) translateY(-65px);
+    transform: scale(1) perspective(0) rotateX(0) rotateY(0) rotate(0) translateX(-45px) translateY(-105px)
+}
+
+.card-left-nh {
+  transition: 0.3s  ease;
+  transform: scale(1) perspective(1000px) rotateX(23deg) rotateY(23deg) rotate(-9.8deg) translateX(-15px) translateY(-115px);
+}
+
+
+
+
+
+
