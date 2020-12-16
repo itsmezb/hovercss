@@ -7,6 +7,7 @@ body {
   height: 100%;
   min-height: 100%;
   height: 450vh;
+  scroll-behavior: smooth;
 }
 
 
@@ -14,6 +15,8 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
+
 }
 
 
@@ -26,7 +29,6 @@ body {
 
 nav {
   z-index: 10000;
-  
 }
 
 .logo {
@@ -103,6 +105,17 @@ nav {
 
 
 
+.fifth-container {
+  height: 40vh;
+  width: 100%;
+  margin-top: 130%;
+  position: absolute;
+  background: linear-gradient(45deg, #0083b0, #00b4db);
+}
+
+
+
+
 
 
 
@@ -119,14 +132,7 @@ nav {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-.second-container h3 {
-  color: #fff;
-  font-family: 'Roboto Condensed', sans-serif;
-  background: rgba(0,0,0,.6);
-  padding: 20px;
-  margin: 20px 500px 0px 500px;
-  border-radius: 10px;
-}
+
 
 .second-container button {
   width: 150px;
@@ -151,7 +157,7 @@ nav {
   height: 1000px;
   width: 1000px;
   padding: 0;
-  margin-top: -7% !important;
+  margin-top: -10% !important;
 }
 
 
@@ -179,8 +185,9 @@ nav {
   margin-left: 13%;
   margin-top: 3%;
   font-size: 2.8rem;
-
 }
+
+
 
 
 
@@ -211,13 +218,6 @@ nav {
 
 
 
-.fifth-container {
-  height: 40vh;
-  width: 100%;
-  margin-top: 130%;
-  position: absolute;
-  background: linear-gradient(45deg, #0083b0, #00b4db);
-}
 
 
 .fifth-container img {
@@ -295,6 +295,18 @@ button a {
 }
 
 
+
+.card-center.permahover {
+  transform: scale(1.1) perspective(0) rotateX(0);
+  animation: animt 5s infinite;
+  position: relative;
+}
+
+@keyframes animt {
+  0%   {top: 0px;  }
+  50%  {top: 30px; }
+  100% {top: 00px; }
+}
 
 
 
