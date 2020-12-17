@@ -7,7 +7,7 @@
 //       let temp = matrix[i][j];
 //       matrix[i][j] = matrix[j][i];
 //       matrix[j][i] = temp;
-//     }
+//     }s
 //   }
 //   for (let i=0;i<N;i++) {
 //     for (let j=0; j<(N/2);j++) {
